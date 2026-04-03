@@ -1,0 +1,167 @@
+.section {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, 
+  var(--secondary) 0%, 
+  var(--primary) 96%);
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+  font-size: 90px;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.Nav h2 {
+  font-size: 35px;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.justify-between{
+    padding: 0px !important;
+}
+
+.Top_Part {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.Theme_toggle{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    font-size: 30px;
+}
+
+.Theme_toggle button {
+    background-color: var(--secondary);
+    border: none;
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 90%;
+    width: 60px;
+    height: 60px;
+}
+
+.Theme_toggle button:hover {
+    background-color: var(--neon-cyan);
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.Footer {
+    background-color: gray;
+    color: var(--text-primary);
+    text-align: center;
+    padding: 5%;
+    display: flex;
+}
+
+.Footer_part h1{
+    color: black;
+    font-size: 40px;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.Footer_part p{
+    color: black;
+    font-size: 20px;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+.carousel-section {
+  position: relative;
+  z-index: 20;
+  padding: 4rem 2rem;
+  background: var(--color-bg-secondary);
+  backdrop-filter: blur(10px);
+  margin: 2rem 0;
+}
+
+.carousel-container {
+  max-width: 1333px;
+  max-height: 480px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-2xl);
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: var(--color-bg);
+}
+
+.carousel-slide p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  padding: 1.5rem;
+  color:aqua
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid var(--color-border);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  background: var(--color-primary-600);
+  border-color: var(--color-primary-600);
+  transform: scale(1.3);
+}
+
+.Vision{
+  padding: 6rem 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, 
+    var(--neon-cyan) 0%, 
+    var(--neon-pink) 96%);
+  color: black;
+  margin-top: 2rem;
+  border: none
+}
+
+.Vision h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 50px
+}
+
+.Vision p{
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
